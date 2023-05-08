@@ -238,7 +238,7 @@ body {
 }
 
 #page-content{
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 .card {
     background: #fff;
@@ -260,6 +260,7 @@ body {
 
 .card-hide-body .card-body {
     display: none
+
 }
 
 
@@ -487,4 +488,17 @@ body {
 .my-float{
 	margin-top:16px;
 }
+
+.footer-container{
+    position: relative;
+}
  
+@media (max-width: 1200px) {
+    .card-title {
+        font-size: 1em;
+    }
+
+    .card-text{
+        font-size: 0.9em; 
+    }
+}
